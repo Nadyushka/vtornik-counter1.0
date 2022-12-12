@@ -1,4 +1,5 @@
 import React from 'react';
+import s from './topWindow.module.css'
 
 type PropsType = {
     topWindowType: "minMaxSettings" | "presentation"
@@ -6,7 +7,7 @@ type PropsType = {
 
 const TopWindow = (props:PropsType) => {
     return (
-        <div>
+        <div className={s.topWindow}>
             
         </div>
     );

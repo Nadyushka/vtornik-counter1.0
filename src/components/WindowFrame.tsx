@@ -1,4 +1,5 @@
 import React from 'react';
+import s from './windowFrame.module.css'
 import TopWindow from "./TopWindow/TopWindow";
 import BottomWindow from "./BottomWindow/BottomWindow";
 
@@ -9,7 +10,7 @@ type PropsType = {
 const WindowFrame = (props: PropsType) => {
 
     return (
-        <div>
+        <div className={s.windowFrame}>
             <TopWindow topWindowType={props.topWindowType}/>
             <BottomWindow/>
         </div>

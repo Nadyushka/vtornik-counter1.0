@@ -1,0 +1,7 @@
+.bottomWindow {
+    width: 80%;
+    height: 30%;
+    border-radius: 10px;
+    border: 5px solid blueviolet;
+    justify-content: center;
+}
