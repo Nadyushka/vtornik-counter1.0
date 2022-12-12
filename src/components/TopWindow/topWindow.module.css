@@ -3,19 +3,19 @@
     height: 50%;
     border-radius: 10px;
     border: 5px solid blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .minMaxWindow {
     margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .minMaxWindow form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 60px;
 }
 
 .minQuantity, .maxQuantity {
@@ -31,6 +31,23 @@
 
 label {
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 10px;
+}
+
+
+.presentationWindow {
+    color: black;
+    font-size: 20px;
+}
+
+.presentationWindowStart {
+    color:red;
+    bold:600;
+}
+
+.minValueError, .maxValueError {
+    color:red;
+    bold:600;
+    width: 300px;
 }

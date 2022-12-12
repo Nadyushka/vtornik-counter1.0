@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopWindow/TopWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopWindow/TopWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopWindow/topWindow.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopWindow/topWindow.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WindowFrame.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WindowFrame.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670863814875</updated>
-      <workItem from="1670863815984" duration="5216000" />
+      <workItem from="1670863815984" duration="7733000" />
     </task>
     <servers />
   </component>
