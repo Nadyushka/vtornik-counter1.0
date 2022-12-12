@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import WindowFrame from "./components/WindowFrame";
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+    return (
+        <div className="App">
+            <WindowFrame topWindowType={'minMaxSettings'}/>
+            <WindowFrame topWindowType={'presentation'}/>
+        </div>
+    );
 }
 
 export default App;

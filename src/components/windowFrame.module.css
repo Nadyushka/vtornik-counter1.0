@@ -1,0 +1,12 @@
+.windowFrame {
+    margin: 0px auto;
+    width: 35%;
+    height: 50%;
+    background-color: cornflowerblue;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
