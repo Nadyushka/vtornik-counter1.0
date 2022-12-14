@@ -1,29 +1,38 @@
-import React, {useState} from 'react';
 import s from './windowFrame.module.css'
 import TopWindow from "./TopWindow/TopWindow";
 import BottomWindow from "./BottomWindow/BottomWindow";
 
 type PropsType = {
-    topWindowType: "minMaxSettings" | "presentation"
+    topWindowType: "minMaxSettings" | "presentation",
+    bottomWindowType: "minMaxSettings" | "presentation"
+    minValue: string
+    maxValue: string
+    value: string
+    setMinValue: (minValue: string) => void
+    setMaxValue: (maxValue: string) => void
+    setValue: (value: string) => void
 }
 
 const WindowFrame = (props: PropsType) => {
 
-    const [minValue, setMinValue] = useState<string>('0')
-    const [maxValue, setMaxValue] = useState<string>('0')
-    const [value, setValue] = useState<string>('')
-
     return (
         <div className={s.windowFrame}>
             <TopWindow topWindowType={props.topWindowType}
-                       minValue={minValue}
-                       maxValue={maxValue}
-                       value={value}
-                       setMinValue={setMinValue}
-                       setMaxValue={setMaxValue}
-                       setValue={setValue}
+                       minValue={props.minValue}
+                       maxValue={props.maxValue}
+                       value={props.value}
+                       setMinValue={props.setMinValue}
+                       setMaxValue={props.setMaxValue}
+                       setValue={props.setValue}
             />
-            <BottomWindow/>
+            <BottomWindow bottomWindowType={props.bottomWindowType}
+                          minValue={props.minValue}
+                          maxValue={props.maxValue}
+                          value={props.value}
+                          setMinValue={props.setMinValue}
+                          setMaxValue={props.setMaxValue}
+                          setValue={props.setValue}
+            />
         </div>
     );
 };
