@@ -3,7 +3,6 @@
     height: 50%;
     border-radius: 10px;
     border: 5px solid blueviolet;
-
 }
 
 .minMaxWindow {
@@ -38,16 +37,33 @@ label {
 
 .presentationWindow {
     color: black;
-    font-size: 20px;
+    font-size: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .presentationWindowStart {
-    color:red;
-    bold:600;
+    color: red;
+    bold: 600;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .minValueError, .maxValueError {
-    color:red;
-    bold:600;
+    color: red;
+    bold: 600;
     width: 300px;
+}
+
+.presentationWindowMaximum {
+    color: red;
+    font-size: 27px;
+
 }
