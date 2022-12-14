@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ec4a48f7-fc81-42c6-a403-bd213706de85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BottomWindow/BottomWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BottomWindow/BottomWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopWindow/TopWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopWindow/TopWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopWindow/topWindow.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopWindow/topWindow.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WindowFrame.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WindowFrame.tsx" afterDir="false" />
@@ -34,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\it-incubator\\vtornik\\counter1.0\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\it-incubator\\vtornik\\counter1.0\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\it-incubator\vtornik\counter1.0\src\components\TopWindow" />
@@ -78,7 +80,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670863814875</updated>
-      <workItem from="1670863815984" duration="7733000" />
+      <workItem from="1670863815984" duration="8099000" />
+      <workItem from="1670944290498" duration="856000" />
+      <workItem from="1670946127174" duration="163000" />
+      <workItem from="1670947935729" duration="2312000" />
+      <workItem from="1670954651989" duration="5949000" />
+      <workItem from="1671031875284" duration="10235000" />
     </task>
     <servers />
   </component>
