@@ -36,6 +36,7 @@ const BottomWindow = (props: PropsType) => {
 
             props.value !== 'You need to set MAX and MIN values and to press SET to start' && props.value < props.maxValue && props.setValue(JSON.stringify(+props.value + 1))
 
+
         }
 
         const onClickHandlerClear = () => {
