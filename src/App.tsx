@@ -19,10 +19,11 @@ function App() {
         }
         , [])
 
-    useEffect(()=>{
+    useEffect(() => {
         value !== 'You need to set MAX and MIN values and to press SET to start' &&
-          localStorage.setItem('currentValue', value)
-    },[value])
+        localStorage.setItem('currentValue', value)
+        
+    }, [value])
 
     return (
         <div className="App">
