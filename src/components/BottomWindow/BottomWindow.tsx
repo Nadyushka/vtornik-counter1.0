@@ -22,21 +22,21 @@ const BottomWindow = (props: PropsType) => {
                 localStorage.setItem('currentValue', props.minValue)
                 localStorage.setItem('minValue', props.minValue)
                 localStorage.setItem('maxValue', props.maxValue)
+
             }
         }
 
         return (
-            <button onClick={onClickSetHandler}> SET </button>
+            <button className={s.button} onClick={onClickSetHandler}> SET </button>
         )
     }
 
     const presentationWindowSet = () => {
 
         const onClickHandlerIncrement = () => {
-
-            props.value !== 'You need to set MAX and MIN values and to press SET to start' && props.value < props.maxValue && props.setValue(JSON.stringify(+props.value + 1))
-
-
+            props.value !== 'You need to set MAX and MIN values and to press SET to start' &&
+            props.value < props.maxValue &&
+            props.setValue(JSON.stringify(+props.value + 1))
         }
 
         const onClickHandlerClear = () => {
@@ -48,8 +48,8 @@ const BottomWindow = (props: PropsType) => {
         }
 
         return (<>
-                <button onClick={onClickHandlerIncrement}> INCREMENT</button>
-                <button onClick={onClickHandlerClear}> CLEAR</button>
+                <button className={s.button} onClick={onClickHandlerIncrement}> INCREMENT</button>
+                <button className={s.button}  onClick={onClickHandlerClear}> CLEAR</button>
             </>
         )
     }

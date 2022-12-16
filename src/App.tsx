@@ -22,7 +22,7 @@ function App() {
     useEffect(() => {
         value !== 'You need to set MAX and MIN values and to press SET to start' &&
         localStorage.setItem('currentValue', value)
-        
+
     }, [value])
 
     return (

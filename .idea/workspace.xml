@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BottomWindow/BottomWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BottomWindow/BottomWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BottomWindow/bottomWindow.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BottomWindow/bottomWindow.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,7 @@
       <workItem from="1670947935729" duration="2312000" />
       <workItem from="1670954651989" duration="5949000" />
       <workItem from="1671031875284" duration="10898000" />
+      <workItem from="1671214796003" duration="2506000" />
     </task>
     <servers />
   </component>
